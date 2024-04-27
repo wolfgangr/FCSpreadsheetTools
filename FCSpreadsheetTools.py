@@ -370,8 +370,8 @@ class Spreadsheet_Tools(QtGui.QDialog):
                 # add rows and columns to clipboard
                 nrows = len(cell_content[0])
                 ncols = len(cell_content)
-                for r in xrange(nrows):
-                    for c in xrange(ncols):
+                for r in range(nrows):
+                    for c in range(ncols):
                         if cell_content[c][r] is not None:
                             clipboard += cell_content[c][r]
                         else:
@@ -406,8 +406,8 @@ class Spreadsheet_Tools(QtGui.QDialog):
                 # add rows and columns to clipboard
                 nrows = len(cell_content_alias[0])
                 ncols = len(cell_content_alias)
-                for r in xrange(nrows):
-                    for c in xrange(ncols):
+                for r in range(nrows):
+                    for c in range(ncols):
                         if cell_content_alias[c][r] is not None:
                             clipboard_alias += cell_content_alias[c][r]
                         else:
@@ -448,8 +448,8 @@ class Spreadsheet_Tools(QtGui.QDialog):
                 # add rows and columns to clipboard
                 nrows = len(cell_content_formatting[0])
                 ncols = len(cell_content_formatting)
-                for r in xrange(nrows):
-                    for c in xrange(ncols):
+                for r in range(nrows):
+                    for c in range(ncols):
 
                         if cell_content_formatting[c][r] is not None:
                             clipboard_formatting += str( cell_content_formatting[c][r] )
