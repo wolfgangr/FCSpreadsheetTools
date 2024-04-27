@@ -1,10 +1,10 @@
 Forked from the official Repo:
 https://github.com/HoWilgh/FCSpreadsheetTools
 
-looks like somebody had to liftit from python 2 to python 3
+looks like somebody had to lift it from python 2 to python 3 see the issue here:
 
 https://github.com/HoWilgh/FCSpreadsheetTools/issues/1
- NameError: name 'xrange' is not defined. Did you mean: 'range'? - Python version issue? #1 
+NameError: name 'xrange' is not defined. Did you mean: 'range'? - Python version issue? #1 
 
 I'll give it a try ....
 
