@@ -1,3 +1,17 @@
+Forked from the official Repo:
+https://github.com/HoWilgh/FCSpreadsheetTools
+
+looks like somebody had to liftit from python 2 to python 3
+
+https://github.com/HoWilgh/FCSpreadsheetTools/issues/1
+ NameError: name 'xrange' is not defined. Did you mean: 'range'? - Python version issue? #1 
+
+I'll give it a try ....
+
+See also
+https://forum.freecad.org/viewtopic.php?style=3&p=754707#p754707
+
+
 # FCSpreadsheetTools
 The macro was developed for the use in FreeCAD (http://www.freecadweb.org/).
 
