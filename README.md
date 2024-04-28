@@ -8,6 +8,13 @@ NameError: name 'xrange' is not defined. Did you mean: 'range'? - Python version
 
 I'll give it a try ....
 
+------------
+ok, looks like `replacing` xrange by `range` restores previos behaviour to quite some amount.
+In my opinion to keep it as part of "1.0", however, some more investment into maturity might be fine.
+I'll leave it for now in the current 'works for me' condition.
+------------
+
+
 See also
 https://forum.freecad.org/viewtopic.php?style=3&p=754707#p754707
 
