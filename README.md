@@ -6,17 +6,18 @@ looks like somebody had to lift it from python 2 to python 3 see the issue here:
 https://github.com/HoWilgh/FCSpreadsheetTools/issues/1
 NameError: name 'xrange' is not defined. Did you mean: 'range'? - Python version issue? #1 
 
-I'll give it a try ....
-
-------------
-ok, looks like `replacing` xrange by `range` restores previos behaviour to quite some amount.
-In my opinion to keep it as part of "1.0", however, some more investment into maturity might be fine.
-I'll leave it for now in the current 'works for me' condition.
-------------
+I'll give it a try 
 
 
 See also
 https://forum.freecad.org/viewtopic.php?style=3&p=754707#p754707
+
+___
+ok, looks like `replacing` xrange by `range` restores previos behaviour to quite some amount.
+In my opinion to keep it as part of "1.0", however, some more investment into maturity might be fine.
+I'll leave it for now in the current 'works for me' condition.
+___
+
 
 
 # FCSpreadsheetTools
